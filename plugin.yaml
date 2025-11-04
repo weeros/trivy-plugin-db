@@ -1,5 +1,5 @@
 name: db
-version: 0.2.0
+version: 0.2.2
 usage: Recherche une CVE dans la base Trivy
 description: Plugin Trivy pour interroger vuln.db avec un CVE-ID
 platforms:
@@ -17,10 +17,10 @@ platforms:
       os: linux
       arch: amd64
     #uri: ./trivy-db
-    uri: https://github.com/weeros/trivy-plugin-db/releases/download/v0.2.0/trivy-db.tar.gz
+    uri: https://github.com/weeros/trivy-plugin-db/releases/download/v0.2.2/trivy-db.tar.gz
     bin: ./trivy-db
   - selector: # optional
       os: linux
       arch: arm64
-    uri: https://github.com/weeros/trivy-plugin-db/releases/download/v0.2.0/trivy-db.tar.gz
+    uri: https://github.com/weeros/trivy-plugin-db/releases/download/v0.2.2/trivy-db.tar.gz
     bin: ./trivy-db
