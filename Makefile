@@ -1,5 +1,5 @@
 PLUGIN_NAME=db
-BINARY_NAME=trivy-db
+BINARY_NAME=db
 PLUGIN_DIR=$(HOME)/.trivy/plugins/$(PLUGIN_NAME)
 
 build:
